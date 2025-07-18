@@ -1,0 +1,42 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  padding: 3rem;
+  margin-top: 6rem;
+  width: 25%;
+  height: 400px; /* ensure there's height */
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between; /* pushes buttons to bottom */
+  align-items: center;
+}
+
+.button_group {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.total_amount_card{
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 85%;
+  height: 330px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.total_amount_card h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #333333;
+  margin-top: 80px;
+  font-size: 4.5rem;
+}
